@@ -1,0 +1,75 @@
+@media(max-width: 1277px){
+	.unlimited{margin-left: 0;}
+	.bluebut{margin-bottom: 20px;}
+	.part1{background-size: cover;}
+}
+
+@media(max-width: 1127px){
+	.freeimg{margin: 0;}
+}
+
+@media(max-width: 1030px){
+	.freeflex{justify-content: space-between;}
+	.freetext{text-align: center;}
+	.freeimg>img{max-width: 400px;}
+	.card:nth-child(2){transform: scale(1.0);}
+}
+
+@media(max-width: 900px){
+	.part_6{margin: 40px 0px 45px 0px;}
+	.freeflex{justify-content: center;}
+	.cards{gap:2.5em;}
+}
+
+@media(max-width: 879px){
+	header{justify-content: center; padding: 20px 0px;}
+	nav>ul{margin-top: 10px; line-height: 35px;}
+	.part1{background-color: #42a8f6; background: none;background-color: #42a8f6;}
+	/*.pencils,*/ .headphones, .earphones{display: none;}
+	.pencil{ bottom: -0.4em; left: 29%; transform: rotate(45deg); display: none;}
+	.part1_2{padding: 0; margin-top: 40px; padding-bottom: 40px; display: flex; flex-direction: column; align-items: center;}
+	.ggplay{padding-top: 10px; display: inherit;}
+	.b1{margin-right: 50px;}
+	.plus{text-align: center;} .plus>p{line-height: 1.4em} .plus>span{font-size: 33px;}
+	.welcome{padding-top: 40px; margin-bottom: 45px;}
+	.headnav:hover{box-shadow: none; border-radius: 0px;}
+	.bottom{flex-direction: column; /*gap: 5em;*/ margin: 3.313em 0em;}
+	.lastflab{text-align: center; flex-basis: unset;}
+	.lastli{display: none;}
+	footer>p{text-align: center;}
+	.plus>p{padding: 0px 5px;}	
+
+	.iconsAndText{margin-bottom: 0px;} .welcome{padding-top: 55px;}
+	.cards,.inbut, .switchcom{padding-bottom: 60px;}
+
+}
+
+
+@media(max-width: 689px){
+	.p3all{flex-flow: wrap; justify-content: center;}
+	.center_h2p{margin-top: 0px;}
+	.our_pics>div:nth-child(2){margin:2em 0em;}
+	.bluebut{float: right;}
+	.unlimited{padding: 0px 8px;}
+	.unlim{font-size: 34px;}
+	.our_pics{margin-bottom: 50px;}
+	.p3all{padding-top: 60px;}
+	.ggtext,.b2>span{font-size: 14px;}
+	.we_have,.unlim{text-align: center;}
+
+	.iconsAndText{flex-direction: column;}
+	.iconflex >.icol:last-child{margin-top: 3em; margin-bottom: 3em;}
+	.coltext>p{padding-right: 15px;}
+	.colimg{padding-left: 1em;}
+
+	.switchcom div:first-child{padding-right: 0.4em;}
+.switchcom div:last-child{ padding-left: 0.4em;}
+
+	.freetext{padding: 0px 10px}
+}
+
+
+@media(max-width: 415px){
+	.freeimg>img{max-width: 300px;}
+	.lastflab>p,footer>p{padding: 0px 10px; margin-left: 0px;}
+}
