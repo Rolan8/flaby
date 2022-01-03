@@ -51,21 +51,31 @@
 	.our_pics>div:nth-child(2){margin:2em 0em;}
 	.bluebut{float: right;}
 	.unlimited{padding: 0px 8px;}
-	.unlim{font-size: 34px;}
+	.unlim{font-size: 1.65rem;}
 	.our_pics{margin-bottom: 50px;}
 	.p3all{padding-top: 60px;}
-	.ggtext,.b2>span{font-size: 14px;}
+	.ggtext,.b2>span{font-size: 18px;}
 	.we_have,.unlim{text-align: center;}
-
+	.plus>p{font-size: 1.3rem}
+	.plus>span{font-size: 1.9rem}
 	.iconsAndText{flex-direction: column;}
 	.iconflex >.icol:last-child{margin-top: 3em; margin-bottom: 3em;}
 	.coltext>p{padding-right: 15px;}
-	.colimg{padding-left: 1em;}
-
+	.colimg{padding-left: 1em; min-width: 43px;}
+	.headnav>a{font-size: 1.1rem;}
+	.thereare{font-size: 1.3rem; /*text-align: center;*/ padding: 0px 20px 0px 20px; margin-bottom: 40px;}
+	.roundright{font-size: 19px;}
+	.welcome>h1{font-size: 29px;}
+	.roundson{align-items: center;}
+	.comment>p{font-size: 20px;line-height: 1.6rem}
 	.switchcom div:first-child{padding-right: 0.4em;}
-.switchcom div:last-child{ padding-left: 0.4em;}
+	.switchcom div:last-child{ padding-left: 0.4em;}
+	.switchcom>div{font-size: 30px;}
+	.switchcom span{/*font-size: 40px*/ font-size: 2.9rem}
 
-	.freetext{padding: 0px 10px}
+	.freetext{padding: 0px 20px}
+	.freetext>h1{font-size: 1.8em}
+	.freetext>p{margin: 1.5rem 0px;}
 }
 
 
