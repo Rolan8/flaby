@@ -29,7 +29,6 @@ header{padding-top: 45px; padding-bottom: 37px; position: relative; z-index: 1;
 	border-bottom: 1px solid #c2c2c2; flex-flow: wrap;}
 
 .headnav{text-transform: uppercase; display: inline-block; padding: 0em 0.1em;}
-.headnav:hover{box-shadow: 0px 0px  3em blue; border-radius: 0.2em; transition: 0.2s;}
 .headnav>a{text-decoration: none; color: #fff; font-size: 19px;}
 .headnav:nth-child(5){word-spacing: 4px;}	
 nav>ul{ padding: 0; margin: 0; font-size: 20px;
