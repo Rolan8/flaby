@@ -1,3 +1,26 @@
+@media(min-width: 879px){
+	button:hover{
+		background-color: #0963f7;
+		transition: .2s;
+	}
+	.b1:hover{
+		background-color:  #0963f7;
+		transition: .2s;
+		color: white;
+	}
+	.b2:hover{
+		background-color: rgba(9,99,247,1);
+		transition: .2s;
+	}
+	.headnav:hover{
+		box-shadow: 0px 0px  3em blue; 
+		border-radius: 0.2em; 
+		transition: 0.2s;
+	}
+}
+
+
+
 @media(max-width: 1277px){
 	.unlimited{margin-left: 0;}
 	.bluebut{margin-bottom: 20px;}
@@ -23,16 +46,15 @@
 
 @media(max-width: 879px){
 	header{justify-content: center; padding: 20px 0px;}
-	nav>ul{margin-top: 10px; line-height: 35px;}
+	nav>ul{margin-top: 10px; line-height: 35px; padding-right: 0;}
 	.part1{background-color: #42a8f6; background: none;background-color: #42a8f6;}
 	/*.pencils,*/ .headphones, .earphones{display: none;}
 	.pencil{ bottom: -0.4em; left: 29%; transform: rotate(45deg); display: none;}
 	.part1_2{padding: 0; margin-top: 40px; padding-bottom: 40px; display: flex; flex-direction: column; align-items: center;}
 	.ggplay{padding-top: 10px; display: inherit;}
-	.b1{margin-right: 50px;}
+	.b1{margin-right: 35px; padding: 7px;}
 	.plus{text-align: center;} .plus>p{line-height: 1.4em} .plus>span{font-size: 33px;}
 	.welcome{padding-top: 40px; margin-bottom: 45px;}
-	.headnav:hover{box-shadow: none; border-radius: 0px;}
 	.bottom{flex-direction: column; /*gap: 5em;*/ margin: 3.313em 0em;}
 	.lastflab{text-align: center; flex-basis: unset;}
 	.lastli{display: none;}
@@ -54,7 +76,7 @@
 	.unlim{font-size: 1.65rem;}
 	.our_pics{margin-bottom: 50px;}
 	.p3all{padding-top: 60px;}
-	.ggtext,.b2>span{font-size: 18px;}
+	.ggtext,.b2>span{font-size: 17px;}
 	.we_have,.unlim{text-align: center;}
 	.plus>p{font-size: 1.3rem}
 	.plus>span{font-size: 1.9rem}
@@ -70,12 +92,13 @@
 	.comment>p{font-size: 20px;line-height: 1.6rem}
 	.switchcom div:first-child{padding-right: 0.4em;}
 	.switchcom div:last-child{ padding-left: 0.4em;}
-	.switchcom>div{font-size: 30px;}
-	.switchcom span{/*font-size: 40px*/ font-size: 2.9rem}
-
+	.switchcom>div{font-size: 25px;}
+	.switchcom span{/*font-size: 40px*/ font-size: 25px;}
+	.headnav{padding: 5px;}
 	.freetext{padding: 0px 20px}
 	.freetext>h1{font-size: 1.8em}
 	.freetext>p{margin: 1.5rem 0px;}
+	.fflaby{font-size: 45px;}
 }
 
 
